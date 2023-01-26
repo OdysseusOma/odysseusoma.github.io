@@ -15,13 +15,14 @@ const Skills = () => {
           <div className="skill-title text-[46px]">Skills & Proficiencies</div>
         </div>
       </div>
-      <div className="skill-tabs w-full md:w-[70%] flex flex-wrap gap-x-[2rem] md:gap-x-[10rem] my-[5rem] items-center justify-center">
-        <div>
+      <div className="skill-tabs text-[18px] w-full md:w-[70%] flex flex-wrap gap-y-[1rem] gap-x-[2rem] md:gap-x-[10rem] my-[5rem] justify-center">
+        {/* Frontend developement */}
+        <div className="flex flex-col gap-[0.5rem]">
           <div className="skill">FRONTEND DEVELOPMENT</div>
-          <div className="slider-container relative h-[15px] w-[200px] bg-[#57e4ff] rounded-full">
+          <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
-          <div className="flex flex-wrap w-[150px] gap-[1rem]">
+          <div className="grid gap-[1rem] grid-cols-3">
             <p>React</p>
             <p>HTML</p>
             <p>CSS</p>
@@ -30,46 +31,51 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
         </div>
-        <div>
-          <div className="skill">FRONTEND DEVELOPMENT</div>
-          <div className="slider-container relative h-[15px] w-[200px] bg-[#57e4ff] rounded-full">
+
+        {/* PRODUCT DESIGN */}
+        <div className="flex flex-col gap-[0.5rem]">
+          <div className="skill">PRODUCT DESIGN</div>
+          <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
-          <div className="flex flex-wrap w-[150px] gap-[1rem]">
-            <p>React</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Vue</p>
-            <p>Angular</p>
-            <p>JavaScript</p>
+          <div className="grid gap-[1rem] grid-cols-3">
+            <p>Figma</p>
+            <p>Adobe XD</p>
+            <p>Photoshop</p>
+            <p>Illustrator</p>
           </div>
         </div>
-        <div>
-          <div className="skill">FRONTEND DEVELOPMENT</div>
-          <div className="slider-container relative h-[15px] w-[200px] bg-[#57e4ff] rounded-full">
+
+        {/* BACKEND DEVELOPMENT */}
+        <div className="flex flex-col gap-[0.5rem]">
+          <div className="skill">BACKEND DEVELOPMENT</div>
+          <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
-          <div className="flex flex-wrap w-[150px] gap-[1rem]">
-            <p>React</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Vue</p>
-            <p>Angular</p>
-            <p>JavaScript</p>
+          <div className="grid gap-[1rem] grid-cols-3">
+            <p>Node JS</p>
+            <p>MongoDB</p>
+            <p>Express</p>
+            <p>Git</p>
+            <p>Python</p>
+            <p>PHP</p>
+            <p>API</p>
+            <p>SQL</p>
+            <p>JSON</p>
           </div>
         </div>
-        <div>
-          <div className="skill">FRONTEND DEVELOPMENT</div>
-          <div className="slider-container relative h-[15px] w-[200px] bg-[#57e4ff] rounded-full">
+
+        {/* TECHNICAL WRITING */}
+        <div className="flex flex-col gap-[0.5rem]">
+          <div className="skill">TECHNICAL WRITING</div>
+          <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
-          <div className="flex flex-wrap w-[150px] gap-[1rem]">
-            <p>React</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Vue</p>
-            <p>Angular</p>
-            <p>JavaScript</p>
+          <div className="grid gap-[1rem] grid-cols-3">
+            <p>Script</p>
+            <p>Article</p>
+            <p>Review</p>
+            <p>Web Copy</p>
           </div>
         </div>
       </div>

@@ -10,10 +10,11 @@ const Experience = () => {
         <div className="w-[300px] h-[200px]">
           <div className="text-[17px] my-[10px]">2022</div>
           <div className="font-bold text-[20px] mb-[10px]">
-            BACHELOR OF ENGINEERING
+            B.Eng Mechanical Engineering
           </div>
           <div className="text-[17px]">University of Ilorin</div>
         </div>
+        <div className="h-[130px] w-[1px] mr-[2rem] bg-black"></div>
         <div className="w-[300px] h-[200px]">
           <div className="text-[17px]">2020-2023</div>
           <div className="font-bold text-[20px]">CONSOLT</div>
