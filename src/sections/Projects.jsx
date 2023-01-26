@@ -8,6 +8,7 @@ const Projects = () => {
           <p>CODING</p>
           <p>WRITING</p>
         </div>
+        <div>Code goes here</div>
       </div>
     </div>
   );
