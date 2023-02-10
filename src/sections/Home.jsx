@@ -22,17 +22,29 @@ const Home = () => {
       </div>
       {/* hero CTA */}
       <div className="heroCta absolute flex flex-col  md:right-0 bottom-10 gap-y-5 scale-[0.80] md:scale-auto">
-        <a href="#" className="emailbtn bg-blue-400 px-[5rem] py-[0.5rem]">
+        <a
+          href="#"
+          className="emailbtn bg-[#57e4ff] px-[5rem] py-[0.5rem] cursor-pointer hover:bg-[#1b1f24] hover:scale-[1.1] hover:text-white transition ease-in-out duration-500"
+        >
           Email me
         </a>
         <div className="heroSocialIcons flex items-center justify-around">
-          <a href="" className="twitter h-6 w-6">
+          <a
+            href=""
+            className="twitter h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
+          >
             <img src="/twitter-svgrepo.svg" alt="tw" />
           </a>
-          <a href="" className="instagram h-6 w-6">
+          <a
+            href=""
+            className="instagram h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
+          >
             <img src="/github-svgrepo.svg" alt="gh" />
           </a>
-          <a href="" className="linkedIn h-6 w-6">
+          <a
+            href=""
+            className="linkedIn h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
+          >
             <img src="/linkedin-svgrepo.svg" alt="in" />
           </a>
         </div>

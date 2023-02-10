@@ -18,7 +18,7 @@ const Skills = () => {
       <div className="skill-tabs text-[18px] w-full md:w-[70%] flex flex-wrap gap-y-[1rem] gap-x-[2rem] md:gap-x-[10rem] my-[5rem] justify-center">
         {/* Frontend developement */}
         <div className="flex flex-col gap-[0.5rem]">
-          <div className="skill">FRONTEND DEVELOPMENT</div>
+          <div className="skill flex mx-auto md:mx-0">FRONTEND DEVELOPMENT</div>
           <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
@@ -34,7 +34,7 @@ const Skills = () => {
 
         {/* PRODUCT DESIGN */}
         <div className="flex flex-col gap-[0.5rem]">
-          <div className="skill">PRODUCT DESIGN</div>
+          <div className="skill flex mx-auto md:mx-0">PRODUCT DESIGN</div>
           <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
@@ -48,7 +48,7 @@ const Skills = () => {
 
         {/* BACKEND DEVELOPMENT */}
         <div className="flex flex-col gap-[0.5rem]">
-          <div className="skill">BACKEND DEVELOPMENT</div>
+          <div className="skill flex mx-auto md:mx-0">BACKEND DEVELOPMENT</div>
           <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>
@@ -67,7 +67,7 @@ const Skills = () => {
 
         {/* TECHNICAL WRITING */}
         <div className="flex flex-col gap-[0.5rem]">
-          <div className="skill">TECHNICAL WRITING</div>
+          <div className="skill flex mx-auto md:mx-0">TECHNICAL WRITING</div>
           <div className="slider-container relative h-[20px] w-full bg-[#57e4ff] rounded-full">
             <div className="slider w-[80%] bg-white h-full rounded-full"></div>
           </div>

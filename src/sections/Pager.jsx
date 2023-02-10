@@ -3,6 +3,7 @@ import React from "react";
 const Pager = () => {
   return (
     <div className="w-full h-fit md:h-screen relative bg-[#edf0f2] flex flex-col md:flex-row">
+      {/* Omirin Adebayo Half */}
       <div className="md:w-[50%] flex flex-col justify-center items-center bg-[#1b1f24] py-5 md:py-0">
         <div className="h-[200px] w-[200px] bg-[#edf0f2]">image</div>
         <div className="text-[#57e4ff] text-center font-bold py-[2rem]">
@@ -16,6 +17,7 @@ const Pager = () => {
         </div>
       </div>
 
+      {/* About Me half */}
       <div className="md:w-[50%] flex flex-col justify-center items-center text-center py-5 md:py-0">
         <div className="text-[48px]">&lt;/About Me&gt;</div>
         <p className="max-w-[370px] text-[14px] pt-[2rem] pb-[2rem] md:pb-[4rem]">
@@ -26,8 +28,12 @@ const Pager = () => {
           frontend development.
         </p>
         <div className="aboutDownloads flex gap-[60px] text-white text-[11px]">
-          <div className="bg-[#1b1f24] py-2 px-9">Resume</div>
-          <div className="bg-[#1b1f24] py-2 px-9">Portfolio</div>
+          <div className="bg-[#1b1f24] py-2 px-9 cursor-pointer hover:bg-blue-400 hover:scale-[1.2] hover:text-black transition ease-in-out duration-500">
+            Resume
+          </div>
+          <div className="bg-[#1b1f24] py-2 px-9 cursor-pointer hover:bg-blue-400 hover:scale-[1.2] hover:text-black transition ease-in-out duration-500">
+            Portfolio
+          </div>
         </div>
       </div>
     </div>
