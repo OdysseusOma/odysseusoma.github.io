@@ -11,9 +11,9 @@ const Pager = () => {
           <div className="text-[18px]">React Developer & Writer</div>
         </div>
         <div className="flex-wrap max-w-[250px] text-white">
-          Hi, I'm Adebayo and my friends call me OMA. I am a Nigeria-based
-          freelancer and I build functional websites and webapps with the best
-          UI using React Libraries
+          Hi, I'm Adebayo and my friends call me OMA. I build functional
+          websites and webapps with the best UI using React Libraries. I also
+          love to write
         </div>
       </div>
 
