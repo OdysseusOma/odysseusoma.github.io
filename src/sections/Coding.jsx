@@ -54,7 +54,7 @@ const Coding = () => {
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
                   <img
-                    src="src/assets/prop44.png"
+                    src="../assets/prop44.png"
                     alt=""
                     className="w-full inset-0 opacity-75"
                   />
