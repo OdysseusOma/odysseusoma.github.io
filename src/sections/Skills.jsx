@@ -55,7 +55,7 @@ const Skills = () => {
           <div className="grid gap-[1rem] grid-cols-3">
             <p>Node JS</p>
             <p>MongoDB</p>
-            <p>Express</p>
+            <p>Rust</p>
             <p>Git</p>
             <p>Python</p>
             <p>PHP</p>

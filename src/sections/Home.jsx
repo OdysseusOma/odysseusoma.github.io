@@ -1,6 +1,12 @@
 import React from "react";
 
 const Home = () => {
+  const handleScrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="fullPage relative bg-white flex justify-center items-center">
       {/* hero text */}
@@ -25,24 +31,35 @@ const Home = () => {
         <a
           href="#"
           className="emailbtn bg-violet-800 px-[5rem] py-[0.5rem] cursor-pointer hover:bg-[#1b1f24] hover:scale-[1.1] text-white transition ease-in-out duration-500"
+          onClick={handleScrollToBottom}
         >
           Email me
         </a>
         <div className="heroSocialIcons flex items-center justify-around">
           <a
-            href=""
+            href="https://twitter.com/OdysseusOma"
+            target="_blank"
             className="twitter h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
           >
             <img src="/twitter-svgrepo.svg" alt="tw" />
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/odyssey.of.oma/"
+            target="_blank"
+            className="instagram h-6 w-6  scale-[1.2] hover:scale-[1.6] transition ease-in-out duration-500"
+          >
+            <img src="/instagram-svgrepo.svg" alt="in" />
+          </a>
+          <a
+            href="https://github.com/OdysseusOma"
+            target="_blank"
             className="instagram h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
           >
             <img src="/github-svgrepo.svg" alt="gh" />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/odysseusoma/"
+            target="_blank"
             className="linkedIn h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
           >
             <img src="/linkedin-svgrepo.svg" alt="in" />

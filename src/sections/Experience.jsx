@@ -10,7 +10,7 @@ const Experience = () => {
 
       {/* Experience list */}
       <div className="experience text-black flex flex-wrap md:gap-[2rem] justify-center">
-        {/* Experience 1 */}
+        {/* Education*/}
         <div className="w-fit mx-auto md:w-[300px] py-[2rem] md:py-0 md:h-[200px]">
           <div className="text-[17px] my-[10px]">2022</div>
           <div className="font-bold text-[20px] mb-[10px]">
@@ -20,19 +20,45 @@ const Experience = () => {
         </div>
         {/* Vertical line */}
         <div className="w-[130px] h-[1px] mr-0 md:h-[130px] md:w-[1px] md:mr-[2rem] bg-black"></div>
+        {/* Work history */}
+        <div className="w-fit flex flex-wrap max-w-[60%]">
+          {/* Experience 1 */}
+          <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
+            {/* <div className="text-[17px]">2020-2023</div> */}
+            <div className="font-bold text-[20px]">CONSOLT</div>
+            <div className="text-[17px]">Full Stack Developer</div>
+          </div>
 
-        {/* Experience 2 */}
-        <div className="w-[300px] py-[2rem] md:py-0 md:h-[200px]">
-          <div className="text-[17px]">2020-2023</div>
-          <div className="font-bold text-[20px]">CONSOLT</div>
-          <div className="text-[17px]">Full Stack Developer</div>
-        </div>
-
-        {/* Experience 3 */}
-        <div className="w-[300px] py-[2rem] md:py-0 md:h-[200px]">
-          <div className="text-[17px]">2017 -2020</div>
-          <div className="font-bold text-[20px]">MRAM STUDIOS</div>
-          <div className="text-[17px]">Creative Manager</div>
+          {/* Experience 2 */}
+          <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
+            {/* <div className="text-[17px]">2017 -2020</div> */}
+            <div className="font-bold text-[20px]">MRAM STUDIOS</div>
+            <div className="text-[17px]">Creative Manager</div>
+          </div>
+          {/* Experience 2 */}
+          <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
+            {/* <div className="text-[17px]">2017 -2020</div> */}
+            <div className="font-bold text-[20px]">Kitarific</div>
+            <div className="text-[17px]">Creative Manager</div>
+          </div>
+          {/* Experience 2 */}
+          <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
+            {/* <div className="text-[17px]">2017 -2020</div> */}
+            <div className="font-bold text-[20px]">Media Gearheads</div>
+            <div className="text-[17px]">Creative Manager</div>
+          </div>
+          {/* Experience 2 */}
+          <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
+            {/* <div className="text-[17px]">2017 -2020</div> */}
+            <div className="font-bold text-[20px]">Crime Room</div>
+            <div className="text-[17px]">Creative Manager</div>
+          </div>
+          {/* Experience 2 */}
+          <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
+            {/* <div className="text-[17px]">2017 -2020</div> */}
+            <div className="font-bold text-[20px]">PROP44</div>
+            <div className="text-[17px]">Creative Manager</div>
+          </div>
         </div>
       </div>
     </div>

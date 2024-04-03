@@ -26,25 +26,29 @@ const ContactUs = () => {
         {/* Social Media Links */}
         <div className="heroSocialIcons gap-[1rem] flex items-center justify-around">
           <a
-            href=""
+            href="https://twitter.com/OdysseusOma"
+            target="_blank"
             className="twitter h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
           >
             <img src="/twitter-svgrepo.svg" alt="tw" />
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/odyssey.of.oma/"
+            target="_blank"
             className="instagram h-6 w-6  scale-[1.2] hover:scale-[1.6] transition ease-in-out duration-500"
           >
             <img src="/instagram-svgrepo.svg" alt="in" />
           </a>
           <a
-            href=""
+            href="https://github.com/OdysseusOma"
+            target="_blank"
             className="instagram h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
           >
             <img src="/github-svgrepo.svg" alt="gh" />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/odysseusoma/"
+            target="_blank"
             className="linkedIn h-6 w-6  hover:scale-[1.4] transition ease-in-out duration-500"
           >
             <img src="/linkedin-svgrepo.svg" alt="in" />

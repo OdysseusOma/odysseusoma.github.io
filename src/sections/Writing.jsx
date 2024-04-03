@@ -4,17 +4,17 @@ import DocImage from "../assets/pngegg.png";
 const Writing = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center gap-[4rem] h-fit md:h-[25rem] mt-0 md:mt-[2rem]">
+      <div className="flex flex-col items-center justify-center gap-[1rem] h-fit md:h-[10rem] mt-0 md:mt-[2rem]">
         <div className="font-bold h-[40px]">
           I'm the copywriter you never knew you needed
         </div>
-        <div className="max-w-[40rem] text-center">
+        <div className="max-w-[50rem] text-center">
           I can write about nearly anything I love to familiarise myself by
           researching your industry before I get started. Thus, I am comfortable
           writing on any topic and industry. Wondering if your project is too
           technical or niche? Send me a message first and we can talk about it.
         </div>
-        <div>
+        {/* <div>
           I am open to: Freelance A freelance relationship may be a better
           option to get the help you need if: a. Your current staff lacks the
           expertise to fulfill a new requirement b. You are not financially
@@ -23,18 +23,18 @@ const Writing = () => {
           loads of work, you can consider a contractor relationship We will draw
           up an agreement, including the expected timeframe for how long the
           project should last 👉🏻 Full time 👉🏻 Contract basis 👉🏻 Remote working
-        </div>
+        </div> */}
       </div>
 
       {/* Niche Samples */}
-      <div>
-        <div className="flex text-[30px] justify-end mt-[2rem] mx-[4rem]">
+      <div className="">
+        <div className="flex text-[30px] justify-end mt-[1rem] mx-[4rem]">
           Niche samples
         </div>
         <div className="mt-[2rem] flex flex flex-wrap justify-center md:grid grid-cols-6 grid-rows-3 gap-[1rem]">
           {/* Project 1 */}
           <a
-            href="https://www.google.com"
+            href="https://docs.google.com/document/d/1-XAC9JNFVWralC90gVexctta-XB9Kq4dsFFX7sQtad8/edit?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline col-start-1 transition ease-in-out delay-150 hover:scale-105"
@@ -53,7 +53,7 @@ const Writing = () => {
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <span className="font-bold">Optimal Commercial Agency</span>
+                  <span className="font-bold">True Crime</span>
                   <span className="max-w-[13rem] text-[13px]">
                     Sample work can entice potential clients to reach out for
                     more of your work. Share them here.
@@ -65,7 +65,7 @@ const Writing = () => {
 
           {/* Project 2 */}
           <a
-            href="https://www.google.com"
+            href="https://docs.google.com/document/d/1xCSJiy2dVgJHL51OhSEOsEk12DhC6ITO/edit?usp=drive_link&ouid=100470540127059577902&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-1 col-start-4 transition ease-in-out delay-150 hover:scale-105"
@@ -84,7 +84,7 @@ const Writing = () => {
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <span className="font-bold">Optimal Commercial Agency</span>
+                  <span className="font-bold">Pet Guide</span>
                   <span className="max-w-[13rem] text-[13px]">
                     Sample work can entice potential clients to reach out for
                     more of your work. Share them here.
@@ -108,7 +108,7 @@ const Writing = () => {
             </div>
           </div> */}
           <a
-            href="https://www.google.com"
+            href="https://docs.google.com/document/d/1tXMSCjdViqnvi6nvTdHr3ZSf0h4l7NaJvgS2-I3AkGQ/edit?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-2 transition ease-in-out delay-150 hover:scale-105"
@@ -127,7 +127,7 @@ const Writing = () => {
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <span className="font-bold">Optimal Commercial Agency</span>
+                  <span className="font-bold">Finance</span>
                   <span className="max-w-[13rem] text-[13px]">
                     Sample work can entice potential clients to reach out for
                     more of your work. Share them here.
@@ -139,7 +139,7 @@ const Writing = () => {
 
           {/* Project 4 */}
           <a
-            href="https://www.google.com"
+            href="https://docs.google.com/document/d/1jzNhaqlOOHSBsLMTvraZc3SNlbdufmIv/edit?usp=drive_link&ouid=100470540127059577902&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-5 transition ease-in-out delay-150 hover:scale-105"
@@ -158,7 +158,7 @@ const Writing = () => {
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <span className="font-bold">Optimal Commercial Agency</span>
+                  <span className="font-bold">Tech</span>
                   <span className="max-w-[13rem] text-[13px]">
                     Sample work can entice potential clients to reach out for
                     more of your work. Share them here.
@@ -170,7 +170,7 @@ const Writing = () => {
 
           {/* Project 5 */}
           <a
-            href="https://www.google.com"
+            href="https://docs.google.com/document/d/1bzbhYvZGSD3gTW3VaNHLvw64oBmz6O1zgsF5_cPQiFo/edit?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-3 col-start-3 transition ease-in-out delay-150 hover:scale-105"
@@ -189,7 +189,7 @@ const Writing = () => {
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <span className="font-bold">Optimal Commercial Agency</span>
+                  <span className="font-bold">Health and Wellness</span>
                   <span className="max-w-[13rem] text-[13px]">
                     Sample work can entice potential clients to reach out for
                     more of your work. Share them here.

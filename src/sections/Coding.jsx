@@ -8,7 +8,7 @@ const Coding = () => {
         <div className="border-[1px] border-black h-0 w-[85%]"></div>
       </span>
       <div className="mt-0 md:mt-[2rem] px-[2rem] flex md:justify-between">
-        <div className="hidden md:block w-[200px] lg:w-[400px] h-[250px] lg:h-[450px] bg-blue-400 mx-auto md:mx-0">
+        {/* <div className="hidden md:block w-[200px] lg:w-[400px] h-[250px] lg:h-[450px] bg-blue-400 mx-auto md:mx-0">
           Escent Store
         </div>
         <div className="flex flex-col md:block mx-auto md:mx-0 scale-[0.7] lg:scale-[1]">
@@ -27,19 +27,17 @@ const Coding = () => {
               management for establishments
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Other Projects */}
       <div>
-        <div className="flex text-[30px] justify-end mt-[2rem] mx-[4rem]">
+        {/* <div className="flex text-[30px] justify-end mt-[2rem] mx-[4rem]">
           Other projects
-        </div>
+        </div> */}
         <div className="mt-[2rem] flex flex flex-wrap justify-center md:grid grid-cols-6 grid-rows-3 gap-[1rem]">
           {/* Project 1 */}
           <a
-            href="https://www.google.com"
-            target="_blank"
             rel="noopener noreferrer"
             className="no-underline col-start-1 transition ease-in-out delay-150 hover:scale-105"
           >
@@ -55,6 +53,11 @@ const Coding = () => {
                     alt="Document Image"
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
+                  <img
+                    src="src/assets/prop44.png"
+                    alt=""
+                    className="w-full inset-0 opacity-75"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Prop44</span>
@@ -69,8 +72,6 @@ const Coding = () => {
 
           {/* Project 2 */}
           <a
-            href="https://www.google.com"
-            target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-1 col-start-4 transition ease-in-out delay-150 hover:scale-105"
           >
@@ -86,6 +87,11 @@ const Coding = () => {
                     alt="Document Image"
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
+                  <img
+                    src="src/assets/consolt.png"
+                    alt=""
+                    className="w-full inset-0 opacity-75"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Consolt</span>
@@ -100,8 +106,6 @@ const Coding = () => {
 
           {/* Project 3 */}
           <a
-            href="https://www.google.com"
-            target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-2 transition ease-in-out delay-150 hover:scale-105"
           >
@@ -117,6 +121,11 @@ const Coding = () => {
                     alt="Document Image"
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
+                  <img
+                    src="src/assets/optimal.png"
+                    alt=""
+                    className="w-full inset-0 opacity-75"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Optimal Commercial Agency</span>
@@ -131,8 +140,6 @@ const Coding = () => {
 
           {/* Project 4 */}
           <a
-            href="https://www.google.com"
-            target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-5 transition ease-in-out delay-150 hover:scale-105"
           >
@@ -148,9 +155,14 @@ const Coding = () => {
                     alt="Document Image"
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
+                  <img
+                    src="src/assets/Escent.png"
+                    alt=""
+                    className="w-full inset-0 opacity-75"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <span className="font-bold">Task Genie</span>
+                  <span className="font-bold">Escent Store</span>
                   <span className="max-w-[13rem] text-[13px]">
                     Sample work can entice potential clients to reach out for
                     more of your work. Share them here.
@@ -162,8 +174,6 @@ const Coding = () => {
 
           {/* Project 5 */}
           <a
-            href="https://www.google.com"
-            target="_blank"
             rel="noopener noreferrer"
             className="no-underline row-start-3 col-start-3 transition ease-in-out delay-150 hover:scale-105"
           >
@@ -179,6 +189,11 @@ const Coding = () => {
                     alt="Document Image"
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
+                  <img
+                    src="src/assets/Eatwell.png"
+                    alt=""
+                    className="w-full inset-0 opacity-75"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">EatWell</span>
