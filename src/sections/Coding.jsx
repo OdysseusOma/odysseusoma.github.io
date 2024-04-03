@@ -1,9 +1,9 @@
 import React from "react";
-import consoltimg from "../assets/consolt.png";
-import eatwellimg from "../assets/Eatwell.png";
-import escentimg from "../assets/Escent.png";
-import optimalimg from "../assets/optimal.png";
-import prop44img from "../assets/prop44.png";
+import consoltimg from "/images/consolt.png";
+import eatwellimg from "/images/Eatwell.png";
+import escentimg from "/images/Escent.png";
+import optimalimg from "/images/optimal.png";
+import prop44img from "/images/prop44.png";
 
 const Coding = () => {
   return (
