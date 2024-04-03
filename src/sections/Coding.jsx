@@ -1,4 +1,9 @@
 import React from "react";
+import consoltimg from "../assets/consolt.png";
+import eatwellimg from "../assets/Eatwell.png";
+import escentimg from "../assets/Escent.png";
+import optimalimg from "../assets/optimal.png";
+import prop44img from "../assets/prop44.png";
 
 const Coding = () => {
   return (
@@ -54,7 +59,7 @@ const Coding = () => {
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
                   <img
-                    src="../assets/prop44.png"
+                    src={prop44img}
                     alt=""
                     className="w-full inset-0 opacity-75"
                   />
@@ -88,7 +93,7 @@ const Coding = () => {
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
                   <img
-                    src="src/assets/consolt.png"
+                    src={consoltimg}
                     alt=""
                     className="w-full inset-0 opacity-75"
                   />
@@ -122,7 +127,7 @@ const Coding = () => {
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
                   <img
-                    src="src/assets/optimal.png"
+                    src={optimalimg}
                     alt=""
                     className="w-full inset-0 opacity-75"
                   />
@@ -156,7 +161,7 @@ const Coding = () => {
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
                   <img
-                    src="src/assets/Escent.png"
+                    src={escentimg}
                     alt=""
                     className="w-full inset-0 opacity-75"
                   />
@@ -190,7 +195,7 @@ const Coding = () => {
                     className="object-cover w-[70%] rounded-[30px] transition-transform transform hover:scale-120"
                   /> */}
                   <img
-                    src="src/assets/Eatwell.png"
+                    src={eatwellimg}
                     alt=""
                     className="w-full inset-0 opacity-75"
                   />
