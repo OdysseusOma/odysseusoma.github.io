@@ -9,6 +9,20 @@ const ContactUs = () => {
     message: "",
   });
 
+  const sendEmail = (event) => {
+    axios
+      .post("https://formsubmit.co/adebayoomirin@gmail.com", data)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch(() => {
+        setResult({
+          success: false,
+          message: "Something went wrong. Try again later",
+        });
+      });
+  };
+
   const handleChange = (event) => {
     setData({
       ...data,
@@ -26,6 +40,7 @@ const ContactUs = () => {
       email: "",
       message: "",
     });
+    sendEmail();
     var timeDelay = 3000; //1 second
     setTimeout(function () {
       setEmailSent(false);
