@@ -8,7 +8,7 @@ const Skills = () => {
   //     setValue(event.target.value);
   //   };
   return (
-    <div className="bg-[#1B1F24] px-[3rem] h-fit lg:h-screen text-white flex flex-col md:flex-row w-full">
+    <div className="bg-[#1B1F24] px-[3rem] h-fit text-white flex flex-col md:flex-row w-full">
       <div className="skill-header w-full md:w-[30%] flex flex-col items-center justify-center text-center md:text-left">
         <div>
           <div className="skil-subtitle text-[15px]">WHAT CAN I DO</div>

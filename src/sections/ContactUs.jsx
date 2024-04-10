@@ -1,6 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
 const ContactUs = () => {
+  const [emailSent, setEmailSent] = useState(false);
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (event) => {
+    setData({
+      ...data,
+      [event.target.name]: event.target.value,
+    });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(data);
+
+    setEmailSent(true);
+    setData({
+      name: "",
+      email: "",
+      message: "",
+    });
+    var timeDelay = 3000; //1 second
+    setTimeout(function () {
+      setEmailSent(false);
+    }, timeDelay);
+  };
+
   return (
     <div className="mx-[6rem] items-center md:items-start justify-center md:my-[3rem] flex flex-col md:flex-row">
       {/* Contact List */}
@@ -11,13 +42,13 @@ const ContactUs = () => {
         <div className="max-w-full md:max-w-[60%]">
           <div className="text-[16px] font-bold">ADDRESS</div>
           <p className="text-[14px]">
-            No 4, Adesoji Omirin Street, Awoyaya, Ibeju-Lekki, Lagos State,
-            Nigeria.
+            {/* No 4, Adesoji Omirin Street,  */}
+            Awoyaya, Ibeju-Lekki, Lagos State, Nigeria.
           </p>
         </div>
         <div className="max-w-full md:max-w-[60%]">
           <div className="text-[16px] font-bold">EMAIL</div>
-          <p className="text-[14px]">dev.adebayoomirin@gmail.com</p>
+          <p className="text-[14px]">adebayoomirin@gmail.com</p>
         </div>
         <div className="max-w-full md:max-w-[60%]">
           <div className="text-[16px] font-bold">PHONE</div>
@@ -61,13 +92,18 @@ const ContactUs = () => {
         <div className="md:flex items-center justify-end hidden px-[10px] text-[20px]">
           Omirin Adebayo Osamudiamen
         </div>
-        <form className="flex flex-col gap-[1rem] text-[15px] md:text-[20px] items-stretch">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col gap-[1rem] text-[15px] md:text-[20px] items-stretch"
+        >
           <label className="flex flex-col gap-[0.2rem]">
             Name
             <input
               type="text"
               name="name"
               className="bg-[#1b1f24] rounded-[25px] px-[10px] text-white py-[10px]"
+              value={data.name}
+              onChange={handleChange}
             />
           </label>
           <label className="flex flex-col gap-[0.2rem]">
@@ -76,6 +112,8 @@ const ContactUs = () => {
               type="email"
               name="email"
               className="bg-[#1b1f24] rounded-[25px] px-[10px] text-white py-[10px]"
+              value={data.email}
+              onChange={handleChange}
             />
           </label>
           <label className="flex flex-col gap-[0.2rem]">
@@ -83,14 +121,26 @@ const ContactUs = () => {
             <textarea
               name="message"
               className="bg-[#1b1f24] rounded-[15px] min-h-[150px] px-[10px] text-white py-[10px]"
+              value={data.message}
+              onChange={handleChange}
             />
           </label>
-          <button
-            type="submit"
-            className="mb-[1rem] md:mb-[0rem] flex mx-auto md:mx-0 border-[1px] border-black w-fit px-[50px] py-[10px] hover:bg-[#1b1f24] hover:text-white transition ease-in-out duration-500"
-          >
-            GET IN TOUCH
-          </button>
+          <div className="text-[14px] flex gap-x-2 items-center flex-col lg:flex-row py-2 lg:py-0">
+            <button
+              type="submit"
+              onClick={handleSubmit}
+              className="mb-[1rem] md:mb-[0rem] flex mx-auto md:mx-0 border-[1px] border-black w-fit px-[10px] lg:px-[50px] py-[10px] hover:bg-[#1b1f24] hover:text-white transition ease-in-out duration-500"
+            >
+              GET IN TOUCH
+            </button>
+            <div
+              className={
+                emailSent ? "block text-green-700 text-[20px]" : "hidden"
+              }
+            >
+              &#10003; Sent
+            </div>
+          </div>
         </form>
       </div>
     </div>

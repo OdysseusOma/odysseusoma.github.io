@@ -39,25 +39,25 @@ const Experience = () => {
           <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
             {/* <div className="text-[17px]">2017 -2020</div> */}
             <div className="font-bold text-[20px]">Kitarific</div>
-            <div className="text-[17px]">Creative Manager</div>
+            <div className="text-[17px]">Front-end Developer</div>
           </div>
           {/* Experience 2 */}
           <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
             {/* <div className="text-[17px]">2017 -2020</div> */}
             <div className="font-bold text-[20px]">Media Gearheads</div>
-            <div className="text-[17px]">Creative Manager</div>
+            <div className="text-[17px]">Writer</div>
           </div>
           {/* Experience 2 */}
           <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
             {/* <div className="text-[17px]">2017 -2020</div> */}
             <div className="font-bold text-[20px]">Crime Room</div>
-            <div className="text-[17px]">Creative Manager</div>
+            <div className="text-[17px]">Writer</div>
           </div>
           {/* Experience 2 */}
           <div className="w-[200px] py-[2rem] md:py-0 md:h-[100px]">
             {/* <div className="text-[17px]">2017 -2020</div> */}
             <div className="font-bold text-[20px]">PROP44</div>
-            <div className="text-[17px]">Creative Manager</div>
+            <div className="text-[17px]">Full Stack Developer</div>
           </div>
         </div>
       </div>
