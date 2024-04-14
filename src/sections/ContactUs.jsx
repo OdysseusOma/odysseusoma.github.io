@@ -63,7 +63,9 @@ const ContactUs = () => {
         </div>
         <div className="max-w-full md:max-w-[60%]">
           <div className="text-[16px] font-bold">EMAIL</div>
-          <p className="text-[14px]">adebayoomirin@gmail.com</p>
+          <a href="mailto:adebayoomirin@gmail.com?">
+            <p className="text-[14px]">adebayoomirin@gmail.com</p>
+          </a>
         </div>
         <div className="max-w-full md:max-w-[60%]">
           <div className="text-[16px] font-bold">PHONE</div>
@@ -119,6 +121,7 @@ const ContactUs = () => {
               className="bg-[#1b1f24] rounded-[25px] px-[10px] text-white py-[10px]"
               value={data.name}
               onChange={handleChange}
+              required
             />
           </label>
           <label className="flex flex-col gap-[0.2rem]">
@@ -129,6 +132,7 @@ const ContactUs = () => {
               className="bg-[#1b1f24] rounded-[25px] px-[10px] text-white py-[10px]"
               value={data.email}
               onChange={handleChange}
+              required
             />
           </label>
           <label className="flex flex-col gap-[0.2rem]">
@@ -138,6 +142,7 @@ const ContactUs = () => {
               className="bg-[#1b1f24] rounded-[15px] min-h-[150px] px-[10px] text-white py-[10px]"
               value={data.message}
               onChange={handleChange}
+              required
             />
           </label>
           <div className="text-[14px] flex gap-x-2 items-center flex-col lg:flex-row py-2 lg:py-0">

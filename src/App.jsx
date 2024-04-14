@@ -7,7 +7,6 @@ import ContactUs from "./sections/ContactUs";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
-import Testimonials from "./sections/Testimonials";
 import Footer from "./sections/Footer";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Projects />
       <Skills />
       <Experience />
-      <Testimonials />
       <ContactUs />
       <Footer />
     </div>

@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="flex text-[12px] font-bold bg-[#1b1f24] rounded-[50px] text-white">
           <p
             className={`px-[6rem] py-[1rem] rounded-[50px] cursor-pointer ${
-              showComponent ? "bg-violet-800" : "bg-[#1b1f24] text-white"
+              showComponent ? "bg-[#1c2947]" : "bg-[#1b1f24] text-white"
             }`}
             onClick={() => setShowComponent(true)}
           >
@@ -18,7 +18,7 @@ const Projects = () => {
           </p>
           <p
             className={`px-[6rem] py-[1rem] rounded-[50px] cursor-pointer ${
-              !showComponent ? "bg-violet-800" : "text-white rounded-[0px]"
+              !showComponent ? "bg-[#1c2947]" : "text-white rounded-[0px]"
             }`}
             onClick={() => setShowComponent(false)}
           >

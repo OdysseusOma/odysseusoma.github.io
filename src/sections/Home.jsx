@@ -30,7 +30,7 @@ const Home = () => {
       <div className="heroCta absolute flex flex-col  md:right-0 bottom-10 gap-y-5 scale-[0.80] md:scale-auto">
         <a
           href="#"
-          className="emailbtn bg-violet-800 px-[5rem] py-[0.5rem] cursor-pointer hover:bg-[#1b1f24] hover:scale-[1.1] text-white transition ease-in-out duration-500"
+          className="emailbtn bg-[#1c2947] px-[5rem] py-[0.5rem] cursor-pointer hover:bg-[#1b1f24] hover:scale-[1.1] text-white transition ease-in-out duration-500"
           onClick={handleScrollToBottom}
         >
           Email me

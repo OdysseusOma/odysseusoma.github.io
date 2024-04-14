@@ -9,7 +9,9 @@ const Coding = () => {
   return (
     <div>
       <span className="hidden md:flex w-full md:items-center">
-        <div className="w-[15%] text-[10px] md:text-[20px]">Recent Project</div>
+        <div className="w-[15%] text-[10px] md:text-[20px]">
+          Recent Projects
+        </div>
         <div className="border-[1px] border-black h-0 w-[85%]"></div>
       </span>
       <div className="mt-0 md:mt-[2rem] px-[2rem] flex md:justify-between">
@@ -46,7 +48,7 @@ const Coding = () => {
             rel="noopener noreferrer"
             className="no-underline col-start-1 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -67,8 +69,8 @@ const Coding = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Prop44</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    A gamechanger for Real Estate. Prop44 makes renting a home
+                    easy for its users residing in India
                   </span>
                 </div>
               </div>
@@ -80,7 +82,7 @@ const Coding = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-1 col-start-4 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -101,8 +103,8 @@ const Coding = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Consolt</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    A novel tele-medicine webapp and blog that briges the
+                    healthcare gap in Nigeria startup
                   </span>
                 </div>
               </div>
@@ -114,7 +116,7 @@ const Coding = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-2 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -135,8 +137,8 @@ const Coding = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Optimal Commercial Agency</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    A landing page for travel agent. A hassle-free solution to
+                    flight-booking
                   </span>
                 </div>
               </div>
@@ -148,7 +150,7 @@ const Coding = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-5 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -169,8 +171,8 @@ const Coding = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Escent Store</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    An Ecommerce store with the typical features for a luxury
+                    brand with easy navigation and payment processes
                   </span>
                 </div>
               </div>
@@ -182,7 +184,7 @@ const Coding = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-3 col-start-3 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -203,8 +205,8 @@ const Coding = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">EatWell</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    A landing page for a diet-planning business. Users could
+                    customize meal plans and buy in the store
                   </span>
                 </div>
               </div>

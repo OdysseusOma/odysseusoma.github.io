@@ -12,7 +12,7 @@ const Pager = () => {
       />
 
       {/* About Me half */}
-      <div className="absolute sm:relative r-0 w-full h-full text-white md:text-black z-3 md:w-[50%] flex flex-col justify-center items-center text-center py-5 md:py-0">
+      <div className="absolute md:bg-[url(/blueee.png)] sm:relative r-0 w-full h-full text-white z-3 md:w-[50%] flex flex-col justify-center items-center text-center py-5 md:py-0">
         <div className="text-[48px]">&lt;/About Me&gt;</div>
         <p className="max-w-[370px] text-[14px] pt-[2rem] pb-[2rem] md:pb-[4rem]">
           My programming journey started with Python but I picked up a love for

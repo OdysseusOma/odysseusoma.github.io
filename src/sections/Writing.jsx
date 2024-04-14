@@ -39,7 +39,7 @@ const Writing = () => {
             rel="noopener noreferrer"
             className="no-underline col-start-1 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -55,8 +55,9 @@ const Writing = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">True Crime</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    A Youtube documentary that showcases my ability for
+                    storytelling while presenting factually acturate informatino
+                    to viewres.
                   </span>
                 </div>
               </div>
@@ -70,7 +71,7 @@ const Writing = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-1 col-start-4 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500 hover:scale-120">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white hover:scale-120">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -86,8 +87,8 @@ const Writing = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Pet Guide</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    An insighful book with essential information on how to look
+                    after the Weimaraner dog breed.
                   </span>
                 </div>
               </div>
@@ -113,7 +114,7 @@ const Writing = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-2 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500 hover:scale-120">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white hover:scale-120">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -129,8 +130,8 @@ const Writing = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Finance</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    An analysis of the financial implication of hosting the
+                    World Cup. Niche topics can be thoroughly discussed
                   </span>
                 </div>
               </div>
@@ -144,7 +145,7 @@ const Writing = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-2 col-start-5 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500 hover:scale-120">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white hover:scale-120">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -160,8 +161,8 @@ const Writing = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Tech</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    Long form User Guide for a product. This showcases my
+                    ability to make diligent research on a topic
                   </span>
                 </div>
               </div>
@@ -175,7 +176,7 @@ const Writing = () => {
             rel="noopener noreferrer"
             className="no-underline row-start-3 col-start-3 transition ease-in-out delay-150 hover:scale-105"
           >
-            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-violet-500 hover:scale-120">
+            <div className="h-[10rem] w-[25rem] relative overflow-hidden bg-opacity-40 bg-blur-lg backdrop-filter backdrop-blur-lg p-6 rounded-lg shadow-xl flex transition-transform transform bg-violet-300 hover:bg-[#1c2947] hover:text-white hover:scale-120">
               <div className="flex justify-between space-x-2 items-center">
                 <div
                   id="docu-image"
@@ -191,8 +192,9 @@ const Writing = () => {
                 <div className="flex flex-col items-center justify-center">
                   <span className="font-bold">Health and Wellness</span>
                   <span className="max-w-[13rem] text-[13px]">
-                    Sample work can entice potential clients to reach out for
-                    more of your work. Share them here.
+                    SEO optimized blog post to drive the right traffic to your
+                    website. Articles are conversational while also ranking high
+                    in search indexes
                   </span>
                 </div>
               </div>
