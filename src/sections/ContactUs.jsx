@@ -64,7 +64,7 @@ const ContactUs = () => {
         <div className="max-w-full md:max-w-[60%]">
           <div className="text-[16px] font-bold">EMAIL</div>
           <a href="mailto:adebayoomirin@gmail.com?">
-            <p className="text-[14px]">adebayoomirin@gmail.com</p>
+            <p className="text-[14px]">adebayoomirin@gmail.com &#x2197;</p>
           </a>
         </div>
         <div className="max-w-full md:max-w-[60%]">

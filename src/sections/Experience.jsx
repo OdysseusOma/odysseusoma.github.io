@@ -12,7 +12,7 @@ const Experience = () => {
       <div className="experience text-black flex flex-wrap md:gap-[2rem] justify-center">
         {/* Education*/}
         <div className="w-fit mx-auto md:w-[300px] py-[2rem] md:py-0 md:h-[200px]">
-          <div className="text-[17px] my-[10px]">2022</div>
+          <div className="text-[17px] my-[10px]">2023</div>
           <div className="font-bold text-[20px] mb-[10px]">
             B.Eng Mechanical Engineering
           </div>

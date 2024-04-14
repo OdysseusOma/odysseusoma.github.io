@@ -4,6 +4,7 @@ import eatwellimg from "/images/Eatwell.png";
 import escentimg from "/images/Escent.png";
 import optimalimg from "/images/optimal.png";
 import prop44img from "/images/prop44.png";
+import devRes from "/Omirin Adebayo Dev.pdf";
 
 const Coding = () => {
   return (
@@ -213,6 +214,15 @@ const Coding = () => {
             </div>
           </a>
         </div>
+      </div>
+      <div className="flex justify-center mt-5">
+        <a
+          href={devRes}
+          download="Resume"
+          className="py-3 px-2 rounded-lg border border-black bg-opacity-40 bg-violet-300 hover:bg-[#1c2947] hover:text-white text-[16px]"
+        >
+          Download Resume
+        </a>
       </div>
     </div>
   );

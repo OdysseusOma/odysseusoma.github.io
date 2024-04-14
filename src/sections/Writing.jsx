@@ -1,5 +1,6 @@
 import React from "react";
 import DocImage from "../assets/pngegg.png";
+import wriRes from "/Omirin Adebayo Writer.pdf";
 
 const Writing = () => {
   return (
@@ -201,6 +202,15 @@ const Writing = () => {
             </div>
           </a>
         </div>
+      </div>
+      <div className="flex justify-center mt-5">
+        <a
+          href={wriRes}
+          download="Resume"
+          className="py-3 px-2 rounded-lg border border-black bg-opacity-40 bg-violet-300 hover:bg-[#1c2947] hover:text-white text-[16px]"
+        >
+          Download Resume
+        </a>
       </div>
     </div>
   );
