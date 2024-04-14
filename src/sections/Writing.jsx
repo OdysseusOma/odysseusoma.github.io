@@ -5,15 +5,16 @@ import wriRes from "/Omirin Adebayo Writer.pdf";
 const Writing = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center gap-[1rem] h-fit md:h-[10rem] mt-0 md:mt-[2rem]">
+      <div className="flex flex-col items-center justify-center gap-[1rem] h-fit md:h-[10rem] mt-0 md:mt-[2rem] mx-5">
         <div className="font-bold h-[40px]">
           I'm the copywriter you never knew you needed
         </div>
-        <div className="max-w-[50rem] text-center">
-          I can write about nearly anything I love to familiarise myself by
-          researching your industry before I get started. Thus, I am comfortable
-          writing on any topic and industry. Wondering if your project is too
-          technical or niche? Send me a message first and we can talk about it.
+        <div className="max-w-[50rem] text-center text-[16px]">
+          I can write just about nearly anything. I love to familiarise myself
+          by researching the niche before I get started.
+          <br />
+          Wondering if your project is too technical? Send me a message first
+          and we can talk about it.😉
         </div>
         {/* <div>
           I am open to: Freelance A freelance relationship may be a better
@@ -205,11 +206,11 @@ const Writing = () => {
       </div>
       <div className="flex justify-center mt-5">
         <a
-          href={wriRes}
-          download="Resume"
+          href="https://drive.google.com/drive/folders/15fDBk_G5qRYikSJPTuq_mGoSItpgXsZK?usp=drive_link"
+          target="_blank"
           className="py-3 px-2 rounded-lg border border-black bg-opacity-40 bg-violet-300 hover:bg-[#1c2947] hover:text-white text-[16px]"
         >
-          Download Resume
+          Check out my portfolio
         </a>
       </div>
     </div>
